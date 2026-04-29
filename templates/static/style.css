@@ -1,0 +1,41 @@
+body {
+  background: linear-gradient(135deg, #43cea2, #185a9d);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-gradient {
+  background: linear-gradient(135deg, #ffffff, #f0f9ff);
+}
+
+.status {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 0.85rem;
+  color: white;
+}
+.pending { background: linear-gradient(135deg, #757f9a, #d7dde8); }
+.invited { background: linear-gradient(135deg, #f7971e, #ffd200); }
+.accepted { background: linear-gradient(135deg, #00c9ff, #92fe9d); }
+.declined { background: linear-gradient(135deg, #ff6a00, #ee0979); }
+
+.invite-btn {
+  background: linear-gradient(135deg, #ffb347, #ffcc33);
+  color: #222;
+}
+.accept-btn {
+  background: linear-gradient(135deg, #56ab2f, #a8e063);
+  color: white;
+}
+.decline-btn {
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  color: white;
+}
+.delete-btn {
+  background: linear-gradient(135deg, #434343, #000000);
+  color: white;
+}
+.btn:hover {
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
